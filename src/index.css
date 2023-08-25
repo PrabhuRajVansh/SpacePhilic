@@ -1,0 +1,364 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Aligns items on both ends */
+  align-items: center; /* Centers vertically */
+  padding: 20px;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  flex: 1; /* Take available vertical space */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  padding: 20px;
+}
+
+.main-content section {
+  margin-bottom: 30px;
+  color: aliceblue;
+}
+
+.mission-section {
+  text-align: left;
+  max-width: 100%; /* Limit width to make content more readable */
+  margin: 0 auto;
+  margin-right: 800px;
+  padding-top: 30px; /* Adjust spacing */
+  padding-left: 20px; /* Add left padding */
+}
+
+.mission-section h1 {
+  margin-top: 150px;
+  font-size: 40px;
+}
+.launch-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 20%;
+}
+
+.launch-button:hover {
+  background-color: #444;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.App {
+  /* ... Your existing styles ... */
+  background-image: url('earth.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.about-section {
+  text-align: center;
+  max-width: 580px;
+  margin: 0 auto;
+  padding-top: 180px; /* Add space for the fixed header */
+}
+
+.about-section h2 {
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.about-section p {
+  margin-top: 30px;
+  font-size: 24px;
+}
+.image-section {
+  text-align: center;
+  margin: 30px 0; /* Adjust spacing */
+  background-image: url('about.png');
+  background-repeat: no-repeat;
+  margin-left: 700px;
+  width: 100%;
+  height: 400px;
+}
+
+.image-section img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+
+.products-section {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-top: 120px;
+}
+
+.products-section h2 {
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.products-section p {
+  margin-top: 30px;
+  font-size: 24px;
+}
+h3 {
+  font-size: 24px;
+  color: aliceblue;
+  margin-right: 1150px;
+}
+
+.shakti {
+  background-image: url('shakti.png');
+  width: 100%;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(2, 0.1fr);
+  gap: 0.1px;
+  justify-items: center;
+  margin-top: 20px;
+}
+.product-box1,
+.product-box2,
+.product-box3,
+.product-box4 {
+  background-color: #474444;
+  border: 1px solid #ddd;
+  padding: 20px;
+  font-size: 24px;
+  width: 40%;
+  margin-top: 70px;
+  height: 20%;
+  margin-left: 450px;
+  border-radius: 20%;
+}
+.rupakL {
+  background-image: url('rupakL.png');
+  width: 100%;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(2, 0.1fr);
+  gap: 0.1px;
+  justify-items: center;
+  margin-top: 20px;
+}
+.product-1,
+.product-2,
+.product-3 {
+  background-color: #474444;
+  border: 1px solid #ddd;
+  padding: 20px;
+  font-size: 24px;
+  width: 40%;
+  margin-top: 70px;
+  height: 20%;
+  margin-right: 80px;
+  border-radius: 20%;
+}
+.rupakFS {
+  background-image: url('rupakL.png');
+  width: 100%;
+  height: 720px;
+  background-repeat: no-repeat;
+  display: grid;
+  background-position-x: left;
+  grid-template-columns: repeat(2, 0.1fr);
+  gap: 0.1px;
+  justify-items: center;
+  margin-top: 20px;
+  margin-right: 600px;
+}
+.prod-1,
+.prod-2,
+.prod-3,
+.prod-4 {
+  background-color: #474444;
+  border: 1px solid #ddd;
+  padding: 20px;
+  font-size: 24px;
+  width: 20%;
+  margin-top: 70px;
+  height: 20%;
+  margin-left: 700px;
+  border-radius: 20%;
+}
+h2 {
+  color: aliceblue;
+}
+h4 {
+  color: aliceblue;
+  margin-top: 30px;
+}
+.team {
+  background-image: url('cteam.png');
+  width: 900px;
+  height: 450px;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.advisor {
+  background-image: url('advisor.png');
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  margin-left: 300px;
+}
+.vision {
+  background-image: url('vision.png');
+  width: 1100px;
+  height: 650px;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+/* Rest of your existing styles */
+
+/* Contact Section */
+.contact-section {
+  padding-right: 1000px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.contact-section h2 {
+  color: aliceblue;
+  font-size: 40px;
+}
+
+.contact-section p {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+/* Rest of your existing styles */
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align elements to the left */
+  max-width: 400px; /* Adjust the width as needed */
+  margin: 0 auto;
+}
+
+label {
+  font-size: 20px;
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #363030;
+  background-color: #827676dc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #444;
+}
+/* Rest of your existing styles */
+
+/* Footer Section */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Align items to the left and right */
+  align-items: center; /* Center vertically */
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.foot h3 {
+  font-size: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 32px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer p {
+  margin: 5px;
+}
+
+/* Rest of your existing styles */
+
+/* Scroll Behavior */
+html {
+  scroll-behavior: smooth; /* Add smooth scrolling to all anchor links */
+}
